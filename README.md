@@ -18,6 +18,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 2. Install `gh-pages` dependency using `$ npm i --save gh-pages`
 3. Run `npm run deploy`
 
+![](img/react-github-pages-deploy-settings.png)
+
+![](img/react-github-pages-deploy.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
