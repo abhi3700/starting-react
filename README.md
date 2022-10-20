@@ -37,7 +37,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![](img/react-github-pages-deploy.png)
 
-From now on, you can view the output with the changes made deployed to the github pages url.
+From now on, you can view the output with the changes made deployed to the github pages url with the commands `$ npm run deploy`.
 
 ## Available Scripts
 
