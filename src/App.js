@@ -19,10 +19,12 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Bulbasor</td>
-            <td>Grass, Poison</td>
-          </tr>
+          {pokemon.map((pokemon) => (
+            <tr>
+              <td>{pokemon.name.english}</td>
+              <td>{pokemon.type.join(", ")}</td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>
