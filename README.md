@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployment
+
+### Github Pages
+
+1. Edit the [`package.json`](./package.json) with this:
+
+```json
+"homepage": "https://<your-username>.github.io/<your-repo-name>",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+```
+
+2. Install `gh-pages` dependency using `$ npm i --save gh-pages`
+3. Run `npm run deploy`
+
 ## Available Scripts
 
 In the project directory, you can run:
