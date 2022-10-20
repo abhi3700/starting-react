@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Github Pages
 
+> Always create a github repository for a new project in order to deploy it to **Github Pages**. Otherwise, it's going to be a mess with the static folder getting pushed to the provided github repository url.
+
 1. Edit the [`package.json`](./package.json) with this:
 
 ```json
