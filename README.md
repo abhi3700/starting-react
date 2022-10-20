@@ -16,6 +16,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   ![](img/v3_demo.png)
 - [v4: refactored the code with component](https://github.com/abhi3700/starting-react/commit/dc8cdb29719ccbdc2ae949fdbefb826d1c689d07)
   ![](img/v3_demo.png)
+- [v5: Searchbar with Select button outputting showing the properties of Pokemon]()
+
+![](img/v5_demo.png)
 
 ## Deployment
 
@@ -32,8 +35,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     "deploy": "gh-pages -d build",
 ```
 
+> Here, the code is pushed to the `gh-pages` branch of the repository. So, `gh-pages -b main -d build` means the `main` branch shall be updated. I generally won't recommend in the dev stage. So, I'm using the `gh-pages` branch.
+
 2. Install `gh-pages` dependency using `$ npm i --save gh-pages`
-3. Run `npm run deploy` & then `build` folder gets generated. And this `build` folder shall be uploaded into a separate branch called `gh-pages`'s root in the github repository url.
+3. Run `$ npm run predeploy` to build the project for production version i.e. the `build` folder gets generated
+4. `$ npm run deploy` to upload the `build` folder into a separate branch called `gh-pages`'s root in the github repository url.
 
 ![](img/react-github-pages-deploy-settings.png)
 
