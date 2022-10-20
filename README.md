@@ -12,7 +12,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [v1: Pokemon Search with table header & a row](https://github.com/abhi3700/starting-react/commit/910f3ee62562a56526242683893c666651207ca7)
 - [v2: Pokemons populated in a table](https://github.com/abhi3700/starting-react/commit/162cd6416ba8bedc9a4d3caffe365ae7c5d881a6)
   ![](img/v2_demo.png)
-- [v3: ]
+- [v3: 20 Pokemons populated in a table](https://github.com/abhi3700/starting-react/commit/954d132b509e89db3c3040d1751223487f1aebd5)
+  ![](img/v3_demo.png)
+- [v4: refactored the code with component](https://github.com/abhi3700/starting-react/commit/dc8cdb29719ccbdc2ae949fdbefb826d1c689d07)
   ![](img/v3_demo.png)
 
 ## Deployment
@@ -105,3 +107,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## References
+
+- [By Jake Herrington YT playlist](https://www.youtube.com/watch?v=MJaGti42c5c&list=PLNqp92_EXZBJ4CBroxVBJEpAXoz1g-naZ)
