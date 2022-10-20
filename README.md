@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About
+
+- Github pages deployment
+- Pokemon search App
+
+## Learning
+
+- [v1: Pokemon Search with table header & a row](https://github.com/abhi3700/starting-react/commit/910f3ee62562a56526242683893c666651207ca7)
+- [v2: Pokemons populated in a table](https://github.com/abhi3700/starting-react/commit/162cd6416ba8bedc9a4d3caffe365ae7c5d881a6)
+  ![](img/v2_demo.png)
+- [v3: ]
+  ![](img/v3_demo.png)
+
 ## Deployment
 
 ### Github Pages
@@ -18,11 +31,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ```
 
 2. Install `gh-pages` dependency using `$ npm i --save gh-pages`
-3. Run `npm run deploy`
+3. Run `npm run deploy` & then `build` folder gets generated. And this `build` folder shall be uploaded into a separate branch called `gh-pages`'s root in the github repository url.
 
 ![](img/react-github-pages-deploy-settings.png)
 
 ![](img/react-github-pages-deploy.png)
+
+From now on, you can view the output with the changes made deployed to the github pages url.
 
 ## Available Scripts
 
